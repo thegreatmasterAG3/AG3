@@ -1,0 +1,26 @@
+{
+    "intents":[
+        {
+            "tag":"open",
+            "patterns":["open","launch","start","visit"
+            ],
+            "responses":["open"
+            ]
+        },
+        {
+            "tag":"you need a break",
+            "patterns":["bye","you need a break","sleep mode","good bye"
+            ],
+            "responses":["you need a break"
+            ]
+        },
+        {
+            "tag":"Whatsapp",
+            "patterns":["whatsapp","message send","chat"
+            ],
+            "responses":["whatsapp"
+            ]
+        }
+
+    ]
+}
